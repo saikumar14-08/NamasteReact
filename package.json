@@ -1,0 +1,31 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "Trying hard for consistent learning",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saikumar14-08/NamasteReact.git"
+  },
+  "keywords": [],
+  "author": "Sai Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saikumar14-08/NamasteReact/issues"
+  },
+  "homepage": "https://github.com/saikumar14-08/NamasteReact#readme",
+  "dependencies": {
+    "parcel": "^2.8.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  },
+  "browserslist": [
+    "last 5 versions"
+  ]
+}

@@ -67,3 +67,43 @@
 
 # Parcel official documentation: https://parceljs.org/
 # Browsers list compatability: https://browsersl.ist/
+
+#### Ep-03: Laying the foundation.
+
+-> To know how to start the new project we can go through the scripts in the package.json
+-> React Element: Just like DOM elements we have react elements similar to them.
+-> Everything in react is an object.
+  -> React.createElement => Object => HTMLElement(render).
+  -> React.createElement creates an object
+  -> root.render takes the React object and replaces in browser.
+  -> Using React.createElement for creating a simple tags is time taking so to avoid that we use JSX.
+  -> JSX is NOT HTML. It is HTML like syntax.
+  -> JS Engine will not understand JSX because it is not pure JS.
+  -> Our transpiler will convert all the JSX code into the JS Engine understandable code.
+  -> JSX => Transpiled before reaching JS Engine.
+  -> This Transpilation is done with the help of babel which is a transitive dependency of parcel
+  -> Babel also converts the latest code to old code which can be understood by the old browsers.
+  -> To give attributes in jsx we need to give it in camelCase.
+  -> TO use JSX in multiple lines we wrap our jsx in (), this helps babel to understand where the JSX is started.
+
+-> JSX is not a requirement for using React. Using React without JSX is especially convenient when you don’t want to set up compilation in your build environment.
+-> Each JSX element is just syntactic sugar for calling React.createElement(component, props, ...children). So, anything you can do with JSX can also be done with just plain JavaScript.
+
+->  React Components. There are two types:
+  -> Class based component
+    -> Old way to write components.
+    -> Uses JS classes
+  -> Functional Components
+    -> New way to write components.
+    -> Uses JS functions
+    -> Starting letter should be capital.
+    -> Returns a piece of JSX.
+
+-> Component composition: Using one component in another component.
+-> To use react element inside react component we can do it by {yourComp}.
+-> JSX takes care of cross site scripting.
+-> Cross Site Scripting: Injecting some code into the react application through API.
+-> React Fragments(<React.Fragment> / <></>) is used to bind the multiple child divs inside a component.
+->
+
+
